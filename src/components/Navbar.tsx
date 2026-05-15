@@ -42,10 +42,10 @@ const Navbar = () => {
       </div>
 
       {/* Navigation Bar */}
-      <nav className={`fixed top-0 left-0 w-full z-[200] transition-all duration-300 ${
+      <nav className={`fixed top-0 left-0 w-full z-[300] transition-all duration-300 ${
         isScrolled
           ? 'bg-surface/90 backdrop-blur-xl border-b border-white/10 shadow-[0_0_20px_rgba(255,85,64,0.1)]'
-          : 'bg-transparent'
+          : 'bg-background/80 backdrop-blur-sm'
       }`} style={{ marginTop: '36px' }}>
         <div className="flex justify-between items-center h-20 px-4 sm:px-6 max-w-7xl mx-auto">
           {/* Logo */}
@@ -58,8 +58,8 @@ const Navbar = () => {
             <span className="font-display-lg-mobile md:font-display-lg text-primary tracking-wider hidden sm:block">
               CITY FITNESS STUDIO
             </span>
-            <span className="font-display-lg-mobile text-primary tracking-wider sm:hidden">
-              CITY FITNESS STUDIO
+            <span className="font-display-lg-mobile text-primary tracking-wider sm:hidden text-sm">
+              CITY FITNESS
             </span>
           </Link>
 
