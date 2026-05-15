@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Background circle -->
+  <circle cx="50" cy="50" r="48" fill="#131313" stroke="#ff5540" stroke-width="2"/>
+
+  <!-- Stylized CF letter -->
+  <text x="50" y="62" font-family="Arial Black, sans-serif" font-size="42" font-weight="bold" fill="#ff5540" text-anchor="middle">CF</text>
+
+  <!-- Flame accent -->
+  <path d="M50 15 Q55 22 50 28 Q45 22 50 15" fill="#ff5540"/>
+  <path d="M50 12 Q53 18 50 23 Q47 18 50 12" fill="#ffb4a8"/>
+</svg>
