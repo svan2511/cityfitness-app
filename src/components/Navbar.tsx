@@ -59,7 +59,7 @@ const Navbar = () => {
               CITY FITNESS STUDIO
             </span>
             <span className="font-display-lg-mobile text-primary tracking-wider sm:hidden">
-              CFS
+              CITY FITNESS STUDIO
             </span>
           </Link>
 
